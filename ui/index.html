@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="myApp">
+<head>
+<meta charset="UTF-8">
+<script src="js/lib/jquery-2.0.2.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.js"></script>
+<script src="js/lib/mm-foundation-tpls-0.5.1.js"></script>
+<link href="css/lib/foundation.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+
+<script src="js/lib/release/ui-grid-unstable.js"></script>
+<link rel="styleSheet" href="js/lib/release/ui-grid-unstable.css" />
+
+<!-- Scripts needed for grid menu ~~~ START -->
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-touch.js"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular-animate.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/csv.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/pdfmake.js"></script>
+<script src="http://ui-grid.info/docs/grunt-scripts/vfs_fonts.js"></script>
+<!-- Scripts needed for grid menu ~~~ END -->
+
+<title>AngularJS Grid</title>
+
+
+
+
+</head>
+<body>
+
+
+
+	<div style='margin-top: 4em' class="row">
+		<div class="small-11 small-centered columns">
+			<div class="panel callout radius">
+				<h2>Grid Screen</h2>
+			</div>
+			<div class="row">
+				<div ng-controller="Grid1Controller" class="medium-6 columns">
+					<div ui-grid="oneGrid" class="myGrid"></div>
+				</div>
+				<div ng-controller="Grid2Controller" class="medium-6 columns">
+					<!-- ui-grid-selection for check box -->
+					<!-- ui-grid-pinning for column freeze -->
+					<div ui-grid="twoGrid" ui-grid-selection ui-grid-pinning
+						ui-grid-infinite-scroll class="myGrid"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/lib/angular-resource-1.2.3.js"></script>
+	<script src="js/lib/angular-route-1.2.3.js"></script>
+	<script src="js/lib/angular-cookies-1.2.3.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+2015/01/02 11:21:27 [notice] 6252#11164: signal process started
+2015/01/02 11:21:27 [error] 6252#11164: OpenEvent("Global\ngx_quit_9800") failed (2: The system cannot find the file specified)
+2015/01/02 11:21:34 [error] 10988#11104: *2 CreateFile() "C:\Tesseract\Workspace\mytestspace\SampleWebApp\server\nginx-1.6.2/../../src/main/webapp/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8070"
+2015/01/02 12:16:56 [notice] 3916#4208: signal process started
+2015/01/06 16:00:49 [error] 8220#8804: *6 CreateFile() "C:\Users\snandagopal\Desktop\New folder\ui-grid\SampleWebApp\server\nginx-1.6.2/../../ui/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost"
+2015/01/06 16:01:03 [notice] 9680#4836: signal process started
